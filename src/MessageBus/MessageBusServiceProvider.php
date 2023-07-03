@@ -29,7 +29,7 @@ class MessageBusServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__.'/../config/message-bus.php' => config_path('message-bus'),
+            __DIR__.'/../config/message-bus.php' => config_path('message-bus.php'),
         ]);
 
         $this->bindDispatcher();
