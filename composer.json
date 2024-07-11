@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^8.3",
+        "php": "^8.2",
         "ext-json": "*",
         "dotsplatform/utils": "^2.3",
         "laravel/framework": "^9.|^10.12|^11.",
